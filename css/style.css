@@ -6,6 +6,55 @@
     background-color: rgb(252, 254, 254);
 }
 
+.btn-outline-success {
+    background-color: #1b529e;
+    color: #fff;
+    font-size: 15px;
+    padding: 8px 20PX;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.btn-outline-success:hover {
+    background-color:#1608d4 ;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+    position: relative;
+}
+
+.nav-link {
+    color: #2a1d1db2;
+    font-weight: 500;
+}
+
+.nav-link:hover .nav-link.active {
+    color: black;
+}
+
+.nav-link::before {
+    content: "";
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    transition: translate(-50%);
+    width: 100%;
+    height: 2px;
+    background-color: #2a5e05;
+    visibility: hidden;
+    transition: 0.3s ease-out;
+}
+
+
+
 .bk {
     background-color: #2a3551;
 }
